@@ -1,0 +1,43 @@
+
+  <div class="body">
+
+<div class="rectangle-around">
+    <div class="card" >
+      <div class="card-header">
+        <p class="coice-interation" id="ModalLabel">CHOICE INTERACTION</p>
+        <span class="choice-right">
+          <p class="question">QUESTION</p>
+          <p class="response">RESPONSE</p>
+          <img src="/assets/images/trash.png" class="trash" alt="">
+      </span>
+      </div>
+      <div class="card-body">
+          <div class="col-md-7">
+            <input type="text" id="input-holder" class="form-control" placeholder="Define Prompt">
+          </div>
+          <div class="slide-main">
+            <input type="range" id="slider" [(ngModel)]="value" min="0" >
+            <span class="0" style="color: black; font-weight: 500; size: 16px;">0</span>
+            <span style="font-weight: 500; size: 16px;" class="hundred">100</span>
+          </div><br>
+          <div style="font-weight: 500; size: 16px;" class="current-value">current value : {{value}}</div>
+        
+      </div>
+      <div>
+        <button class="done">Done</button>
+      </div>
+    </div>
+  </div>
+  <div class="save-main">
+    <img src="/assets/images/save.png" class="save" alt="">
+  </div>
+  <div >
+    <span class="top-right">
+    <img src="/assets/images/eye.png" class="eye" alt="">
+    <img src="/assets/images/printer.png" class="printer" alt="">
+    <img src="/assets/images/lines.png" class="lines" alt="">
+  </span>
+  </div>
+  
+      </div>
+    
