@@ -1,5 +1,6 @@
 import { Component, OnInit, Output,EventEmitter} from '@angular/core';
-import { SidebarModel } from './model/sidebar.model';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-sidebar',
@@ -8,26 +9,22 @@ import { SidebarModel } from './model/sidebar.model';
 })
 export class SidebarComponent implements OnInit {
   
- 
-  @Output() ParentData:EventEmitter<any> = new EventEmitter(); 
-  constructor() { }
+  answered3:string = 'Japanese capital (order intera'; 
+  answered2:string = 'Luxembourg neigbourhood (ch'; 
+  answered4:string = ' Languages of Europe (Associa'; 
+  answered5:string = ' HG well: The times machine(ho'; 
+  answered6:string = ' Baudellaire: A unaire  dame cre'; 
+  answered7:string = ' Calculate a percentage (Slider'; 
+  answered8:string = ' Market square in Germany ( Ex'; 
+  answered9:string = ' Extended Formula (File upload'; 
 
   ngOnInit(): void {  
-  }
-
-  sidebarItemClick(sidebarData:string){
-    this.ParentData.emit(sidebarData);  
+   
   }
 
 
 
-  sidebarArray  :SidebarModel[] = [
-    new SidebarModel('Items','bi bi-journals'),
-    new SidebarModel('Tests','bi bi-file-earmark-font'),
-    new SidebarModel('Test Takers','bi bi-person-fill'),
-    new SidebarModel('Groups','bi bi-people-fill'),
-    new SidebarModel('Deliveries','bi bi-file-text-fill'),
-    new SidebarModel('Results','fas fa-graduation-cap'),
-  ]
+
+
 
 }

@@ -7,7 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ItemsComponent } from './items/items.component';
 import { MatSliderModule } from '@angular/material';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms'
     HeaderComponent,
     SidebarComponent,
     ItemsComponent,
+    
   ],
   imports: [
     BrowserModule,

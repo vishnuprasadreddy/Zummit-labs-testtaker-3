@@ -78,3 +78,48 @@ border-right: 1px solid #FFFFFF;
 .power-main{
     padding-left: 20px;
 }
+.second-header{
+    background-color: #83C5BE;
+    width: 1535px;
+    height: 35px;
+    
+}
+.second-header-2{
+    padding-top: 2px;
+    width: 1430px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.qti-{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    float: left; 
+    color: #FFFFFF;
+    font-weight: 600;
+    
+    
+}
+
+progress {
+  border: 1px solid #ffffff;
+  width: 200px;
+  height: 10px;
+  float: right;
+  margin-top: 11px;
+  margin-right: 75px;
+}
+
+progress::-webkit-progress-value {
+  background:#83C5BE;
+ 
+}
+progress::-webkit-progress-bar {
+    background:#ffffff;
+}
+
+
