@@ -24,7 +24,8 @@
   <div class="second-header-2">
   <div class="qti-">QTI Interactions</div>
  
-  <div><progress value="40" max="100"></progress></div>
+  <div><progress [value]="40" max="100" [(ngModel)]="values"></progress></div>
+  <div class="progress-value">{{values}}%</div>
  
 </div>
 </div>

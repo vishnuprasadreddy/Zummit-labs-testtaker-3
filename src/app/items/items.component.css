@@ -1,0 +1,79 @@
+.paragraph{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 600px;
+}
+.selection{
+    background-color: #83C5BE;
+    height: 45px;
+    border: 2px dotted #0C747E;
+    border-radius: 10px;
+    position: relative;
+
+}
+.selection-1{
+    position: absolute;
+    top: 9px;
+    left: 40px;
+    color: #ffffff;
+}
+
+.white-tick{
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.grid-container {
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: #ffffff;
+   border-radius: 3px;
+   border: 0.5px solid #B9B9B9;
+    
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 0.5px solid #B9B9B9;
+    border-right:0.5px solid #B9B9B9; ;
+   height: 30px;
+   width: 100px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 6px;
+    
+  }
+  .grid-item-1{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 0.5px solid #B9B9B9;
+    border-right:0.5px solid #B9B9B9; ;
+   height: 30px;
+   width: 100px;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-top: 4px;
+   
+    
+  }
+  .landscape{
+    position: absolute;
+    top: 190px;
+    left: 1050px;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+  }
+  .landscape-1{
+    position: absolute;
+    top: 510px;
+    left: 1060px;
+    width: 400px;
+    font-size: 14px;
+  }
+ 

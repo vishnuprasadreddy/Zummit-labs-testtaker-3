@@ -18,6 +18,12 @@ export class SidebarComponent implements OnInit {
   answered8:string = ' Market square in Germany ( Ex'; 
   answered9:string = ' Extended Formula (File upload'; 
 
+  viewed:number=4;
+  answered:number=3;
+  unanswered:number=14;
+  flaged:number=1;
+  overview:number=4;
+
   ngOnInit(): void {  
    
   }

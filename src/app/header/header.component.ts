@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { __values } from 'tslib';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+ values:number=40;
 
   ngOnInit(): void {
   }
