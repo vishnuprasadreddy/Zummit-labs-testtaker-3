@@ -262,6 +262,7 @@
     height: 45px;
     background-color: #83C5BE;
     position: relative;
+    top: 242px;
 }
 .hide-view{
 display: flex;
